@@ -1,0 +1,502 @@
+[
+  {
+    "Rank": "1",
+    "Bank Name": "Industrial and Commercial Bank of China",
+    "Total Assets (2023, US$ billion)": "6,303.44"
+  },
+  {
+    "Rank": "2",
+    "Bank Name": "Agricultural Bank of China",
+    "Total Assets (2023, US$ billion)": "5,623.12"
+  },
+  {
+    "Rank": "3",
+    "Bank Name": "China Construction Bank",
+    "Total Assets (2023, US$ billion)": "5,400.28"
+  },
+  {
+    "Rank": "4",
+    "Bank Name": "Bank of China",
+    "Total Assets (2023, US$ billion)": "4,578.28"
+  },
+  {
+    "Rank": "5",
+    "Bank Name": "JPMorgan Chase",
+    "Total Assets (2023, US$ billion)": "3,875.39"
+  },
+  {
+    "Rank": "6",
+    "Bank Name": "Bank of America",
+    "Total Assets (2023, US$ billion)": "3,180.15"
+  },
+  {
+    "Rank": "7",
+    "Bank Name": "HSBC",
+    "Total Assets (2023, US$ billion)": "2,919.84"
+  },
+  {
+    "Rank": "8",
+    "Bank Name": "BNP Paribas",
+    "Total Assets (2023, US$ billion)": "2,867.44"
+  },
+  {
+    "Rank": "9",
+    "Bank Name": "Mitsubishi UFJ Financial Group",
+    "Total Assets (2023, US$ billion)": "2,816.77"
+  },
+  {
+    "Rank": "10",
+    "Bank Name": "Crédit Agricole",
+    "Total Assets (2023, US$ billion)": "2,736.95"
+  },
+  {
+    "Rank": "11",
+    "Bank Name": "Postal Savings Bank of China",
+    "Total Assets (2023, US$ billion)": "2,217.86"
+  },
+  {
+    "Rank": "12",
+    "Bank Name": "Citigroup",
+    "Total Assets (2023, US$ billion)": "2,200.83"
+  },
+  {
+    "Rank": "13",
+    "Bank Name": "SMBC Group",
+    "Total Assets (2023, US$ billion)": "2,027.34"
+  },
+  {
+    "Rank": "14",
+    "Bank Name": "Banco Santander",
+    "Total Assets (2023, US$ billion)": "1,986.36"
+  },
+  {
+    "Rank": "15",
+    "Bank Name": "Bank of Communications",
+    "Total Assets (2023, US$ billion)": "1,982.89"
+  },
+  {
+    "Rank": "16",
+    "Bank Name": "Wells Fargo",
+    "Total Assets (2023, US$ billion)": "1,932.47"
+  },
+  {
+    "Rank": "17",
+    "Bank Name": "Mizuho Financial Group",
+    "Total Assets (2023, US$ billion)": "1,923.56"
+  },
+  {
+    "Rank": "18",
+    "Bank Name": "Barclays",
+    "Total Assets (2023, US$ billion)": "1,891.72"
+  },
+  {
+    "Rank": "19",
+    "Bank Name": "Société Générale",
+    "Total Assets (2023, US$ billion)": "1,717.49"
+  },
+  {
+    "Rank": "20",
+    "Bank Name": "UBS",
+    "Total Assets (2023, US$ billion)": "1,717.25"
+  },
+  {
+    "Rank": "21",
+    "Bank Name": "Groupe BPCE",
+    "Total Assets (2023, US$ billion)": "1,706.80"
+  },
+  {
+    "Rank": "22",
+    "Bank Name": "Goldman Sachs",
+    "Total Assets (2023, US$ billion)": "1,641.59"
+  },
+  {
+    "Rank": "23",
+    "Bank Name": "Japan Post Bank",
+    "Total Assets (2023, US$ billion)": "1,625.60"
+  },
+  {
+    "Rank": "24",
+    "Bank Name": "Royal Bank of Canada",
+    "Total Assets (2023, US$ billion)": "1,566.41"
+  },
+  {
+    "Rank": "25",
+    "Bank Name": "China Merchants Bank",
+    "Total Assets (2023, US$ billion)": "1,555.30"
+  },
+  {
+    "Rank": "26",
+    "Bank Name": "Deutsche Bank",
+    "Total Assets (2023, US$ billion)": "1,450.57"
+  },
+  {
+    "Rank": "27",
+    "Bank Name": "Industrial Bank (China)",
+    "Total Assets (2023, US$ billion)": "1,432.59"
+  },
+  {
+    "Rank": "28",
+    "Bank Name": "Toronto-Dominion Bank",
+    "Total Assets (2023, US$ billion)": "1,428.29"
+  },
+  {
+    "Rank": "29",
+    "Bank Name": "China CITIC Bank",
+    "Total Assets (2023, US$ billion)": "1,276.63"
+  },
+  {
+    "Rank": "30",
+    "Bank Name": "Crédit Mutuel",
+    "Total Assets (2023, US$ billion)": "1,262.95"
+  },
+  {
+    "Rank": "31",
+    "Bank Name": "Shanghai Pudong Development Bank",
+    "Total Assets (2023, US$ billion)": "1,207.18"
+  },
+  {
+    "Rank": "32",
+    "Bank Name": "Morgan Stanley",
+    "Total Assets (2023, US$ billion)": "1,193.69"
+  },
+  {
+    "Rank": "33",
+    "Bank Name": "Lloyds Banking Group",
+    "Total Assets (2023, US$ billion)": "1,122.76"
+  },
+  {
+    "Rank": "34",
+    "Bank Name": "China Minsheng Bank",
+    "Total Assets (2023, US$ billion)": "1,082.37"
+  },
+  {
+    "Rank": "35",
+    "Bank Name": "ING Group",
+    "Total Assets (2023, US$ billion)": "1,078.35"
+  },
+  {
+    "Rank": "36",
+    "Bank Name": "Intesa Sanpaolo",
+    "Total Assets (2023, US$ billion)": "1,066.74"
+  },
+  {
+    "Rank": "37",
+    "Bank Name": "Scotiabank",
+    "Total Assets (2023, US$ billion)": "1,041.11"
+  },
+  {
+    "Rank": "38",
+    "Bank Name": "Bank of Montreal",
+    "Total Assets (2023, US$ billion)": "990.19"
+  },
+  {
+    "Rank": "39",
+    "Bank Name": "China Everbright Bank",
+    "Total Assets (2023, US$ billion)": "955.14"
+  },
+  {
+    "Rank": "40",
+    "Bank Name": "NatWest Group",
+    "Total Assets (2023, US$ billion)": "882.30"
+  },
+  {
+    "Rank": "41",
+    "Bank Name": "UniCredit",
+    "Total Assets (2023, US$ billion)": "872.90"
+  },
+  {
+    "Rank": "42",
+    "Bank Name": "Commonwealth Bank",
+    "Total Assets (2023, US$ billion)": "868.74"
+  },
+  {
+    "Rank": "43",
+    "Bank Name": "Banco Bilbao Vizcaya Argentaria",
+    "Total Assets (2023, US$ billion)": "857.25"
+  },
+  {
+    "Rank": "44",
+    "Bank Name": "Standard Chartered",
+    "Total Assets (2023, US$ billion)": "822.84"
+  },
+  {
+    "Rank": "45",
+    "Bank Name": "La Banque postale",
+    "Total Assets (2023, US$ billion)": "815.91"
+  },
+  {
+    "Rank": "46",
+    "Bank Name": "Ping An Bank",
+    "Total Assets (2023, US$ billion)": "787.93"
+  },
+  {
+    "Rank": "47",
+    "Bank Name": "State Bank of India",
+    "Total Assets (2023, US$ billion)": "780.05"
+  },
+  {
+    "Rank": "48",
+    "Bank Name": "ANZ Group",
+    "Total Assets (2023, US$ billion)": "769.59"
+  },
+  {
+    "Rank": "49",
+    "Bank Name": "Canadian Imperial Bank of Commerce",
+    "Total Assets (2023, US$ billion)": "726.27"
+  },
+  {
+    "Rank": "50",
+    "Bank Name": "DZ Bank",
+    "Total Assets (2023, US$ billion)": "712.49"
+  },
+  {
+    "Rank": "51",
+    "Bank Name": "Norinchukin Bank",
+    "Total Assets (2023, US$ billion)": "702.03"
+  },
+  {
+    "Rank": "52",
+    "Bank Name": "National Australia Bank",
+    "Total Assets (2023, US$ billion)": "683.41"
+  },
+  {
+    "Rank": "53",
+    "Bank Name": "Rabobank",
+    "Total Assets (2023, US$ billion)": "678.45"
+  },
+  {
+    "Rank": "54",
+    "Bank Name": "CaixaBank",
+    "Total Assets (2023, US$ billion)": "671.13"
+  },
+  {
+    "Rank": "55",
+    "Bank Name": "Westpac",
+    "Total Assets (2023, US$ billion)": "664.50"
+  },
+  {
+    "Rank": "56",
+    "Bank Name": "U.S. Bancorp",
+    "Total Assets (2023, US$ billion)": "663.49"
+  },
+  {
+    "Rank": "57",
+    "Bank Name": "Nordea",
+    "Total Assets (2023, US$ billion)": "662.71"
+  },
+  {
+    "Rank": "58",
+    "Bank Name": "KfW",
+    "Total Assets (2023, US$ billion)": "648.55"
+  },
+  {
+    "Rank": "59",
+    "Bank Name": "Capital One",
+    "Total Assets (2023, US$ billion)": "629.99"
+  },
+  {
+    "Rank": "60",
+    "Bank Name": "Sberbank of Russia",
+    "Total Assets (2023, US$ billion)": "581.88"
+  },
+  {
+    "Rank": "61",
+    "Bank Name": "Commerzbank",
+    "Total Assets (2023, US$ billion)": "571.64"
+  },
+  {
+    "Rank": "62",
+    "Bank Name": "Huaxia Bank",
+    "Total Assets (2023, US$ billion)": "562.58"
+  },
+  {
+    "Rank": "63",
+    "Bank Name": "PNC Financial Services",
+    "Total Assets (2023, US$ billion)": "561.58"
+  },
+  {
+    "Rank": "64",
+    "Bank Name": "DBS Group",
+    "Total Assets (2023, US$ billion)": "560.10"
+  },
+  {
+    "Rank": "65",
+    "Bank Name": "Itaú Unibanco",
+    "Total Assets (2023, US$ billion)": "555.72"
+  },
+  {
+    "Rank": "66",
+    "Bank Name": "KB Financial Group",
+    "Total Assets (2023, US$ billion)": "551.94"
+  },
+  {
+    "Rank": "67",
+    "Bank Name": "Danske Bank",
+    "Total Assets (2023, US$ billion)": "542.81"
+  },
+  {
+    "Rank": "68",
+    "Bank Name": "Truist Financial Corp",
+    "Total Assets (2023, US$ billion)": "535.35"
+  },
+  {
+    "Rank": "69",
+    "Bank Name": "Shinhan Financial Group",
+    "Total Assets (2023, US$ billion)": "533.48"
+  },
+  {
+    "Rank": "70",
+    "Bank Name": "Resona Holdings",
+    "Total Assets (2023, US$ billion)": "527.53"
+  },
+  {
+    "Rank": "71",
+    "Bank Name": "Sumitomo Mitsui Trust Holdings",
+    "Total Assets (2023, US$ billion)": "520.34"
+  },
+  {
+    "Rank": "72",
+    "Bank Name": "Bank of Beijing",
+    "Total Assets (2023, US$ billion)": "503.31"
+  },
+  {
+    "Rank": "73",
+    "Bank Name": "China Guangfa Bank",
+    "Total Assets (2023, US$ billion)": "495.55"
+  },
+  {
+    "Rank": "74",
+    "Bank Name": "Charles Schwab Corporation",
+    "Total Assets (2023, US$ billion)": "493.18"
+  },
+  {
+    "Rank": "75",
+    "Bank Name": "HDFC Bank",
+    "Total Assets (2023, US$ billion)": "464.34"
+  },
+  {
+    "Rank": "76",
+    "Bank Name": "Bank of Jiangsu",
+    "Total Assets (2023, US$ billion)": "457.25"
+  },
+  {
+    "Rank": "77",
+    "Bank Name": "Hana Financial Group",
+    "Total Assets (2023, US$ billion)": "456.47"
+  },
+  {
+    "Rank": "78",
+    "Bank Name": "Banco do Brasil",
+    "Total Assets (2023, US$ billion)": "447.72"
+  },
+  {
+    "Rank": "79",
+    "Bank Name": "Nationwide Building Society",
+    "Total Assets (2023, US$ billion)": "446.95"
+  },
+  {
+    "Rank": "80",
+    "Bank Name": "China Zheshang Bank",
+    "Total Assets (2023, US$ billion)": "443.37"
+  },
+  {
+    "Rank": "81",
+    "Bank Name": "Oversea-Chinese Banking Corporation",
+    "Total Assets (2023, US$ billion)": "441.53"
+  },
+  {
+    "Rank": "82",
+    "Bank Name": "Bank of Shanghai",
+    "Total Assets (2023, US$ billion)": "435.14"
+  },
+  {
+    "Rank": "83",
+    "Bank Name": "ABN AMRO",
+    "Total Assets (2023, US$ billion)": "417.72"
+  },
+  {
+    "Rank": "84",
+    "Bank Name": "BNY",
+    "Total Assets (2023, US$ billion)": "409.88"
+  },
+  {
+    "Rank": "85",
+    "Bank Name": "United Overseas Bank",
+    "Total Assets (2023, US$ billion)": "396.62"
+  },
+  {
+    "Rank": "86",
+    "Bank Name": "Banco Bradesco",
+    "Total Assets (2023, US$ billion)": "394.76"
+  },
+  {
+    "Rank": "87",
+    "Bank Name": "Nonghyup Bank",
+    "Total Assets (2023, US$ billion)": "394.46"
+  },
+  {
+    "Rank": "88",
+    "Bank Name": "Nomura Holdings",
+    "Total Assets (2023, US$ billion)": "388.42"
+  },
+  {
+    "Rank": "89",
+    "Bank Name": "Woori Financial Group",
+    "Total Assets (2023, US$ billion)": "384.04"
+  },
+  {
+    "Rank": "90",
+    "Bank Name": "KBC Group",
+    "Total Assets (2023, US$ billion)": "383.47"
+  },
+  {
+    "Rank": "91",
+    "Bank Name": "Caixa Econômica Federal",
+    "Total Assets (2023, US$ billion)": "377.29"
+  },
+  {
+    "Rank": "92",
+    "Bank Name": "Erste Group",
+    "Total Assets (2023, US$ billion)": "372.67"
+  },
+  {
+    "Rank": "93",
+    "Bank Name": "Landesbank Baden-Württemberg",
+    "Total Assets (2023, US$ billion)": "368.41"
+  },
+  {
+    "Rank": "94",
+    "Bank Name": "Bank of Ningbo",
+    "Total Assets (2023, US$ billion)": "365.96"
+  },
+  {
+    "Rank": "95",
+    "Bank Name": "SEB Group",
+    "Total Assets (2023, US$ billion)": "358.79"
+  },
+  {
+    "Rank": "96",
+    "Bank Name": "Raiffeisen Group",
+    "Total Assets (2023, US$ billion)": "352.87"
+  },
+  {
+    "Rank": "97",
+    "Bank Name": "Handelsbanken",
+    "Total Assets (2023, US$ billion)": "351.79"
+  },
+  {
+    "Rank": "98",
+    "Bank Name": "Industrial Bank of Korea",
+    "Total Assets (2023, US$ billion)": "345.81"
+  },
+  {
+    "Rank": "99",
+    "Bank Name": "DNB",
+    "Total Assets (2023, US$ billion)": "339.21"
+  },
+  {
+    "Rank": "100",
+    "Bank Name": "Qatar National Bank",
+    "Total Assets (2023, US$ billion)": "338.14"
+  }
+]
