@@ -1,0 +1,27 @@
+{
+  "name": "scala",
+  "argv": [
+    "C:\\Users\\rahul\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\scala\\scala3\\releases\\download\\3.7.4\\scala3-3.7.4-x86_64-pc-win32.zip\\scala3-3.7.4-x86_64-pc-win32\\libexec\\scala-cli.exe",
+    "--cli-default-scala-version",
+    "3.7.4",
+    "--repository",
+    "file:///C:/Users/rahul/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.4/scala3-3.7.4-x86_64-pc-win32.zip/scala3-3.7.4-x86_64-pc-win32/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "c:\\Users\\rahul\\My Repos\\My_Python-codes\\Tensorflow_Files\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "c:\\Users\\rahul\\My Repos\\My_Python-codes\\Tensorflow_Files\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "c:\\Users\\rahul\\My Repos\\My_Python-codes\\Tensorflow_Files\\.scala-build\\ide-envs.json",
+    "c:\\Users\\rahul\\My Repos\\My_Python-codes\\Tensorflow_Files\\new.scala"
+  ],
+  "version": "1.9.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
