@@ -1635,3 +1635,116 @@ Jan 16, 2026 4:44:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 1617
 Jan 16, 2026 4:44:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 1624
+Jan 29, 2026 11:04:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1710
+2026.01.30 10:12:27 INFO  no build target found for C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Operators.scala. Using presentation compiler with project's scala-library version: 3.7.4
+2026.01.30 10:12:30 INFO  time: code lens generation in 1.76s
+2026.01.30 10:12:32 WARN  no build target for: C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Operators.scala
+2026.01.30 10:12:33 INFO  time: Imported build in 0.81s
+2026.01.30 10:12:34 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:12:37 INFO  Deduplicating compilation of My_Python-codes_d5c0a6989e from bsp client 'scala-cli 1.11.0' (since 346h 34m 4.393s)
+2026.01.30 10:12:37 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+Jan 30, 2026 10:12:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1740
+Jan 30, 2026 10:12:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1741
+Jan 30, 2026 10:12:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1743
+2026.01.30 10:12:47 INFO  time: indexed workspace in 14s
+Jan 30, 2026 10:12:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1744
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1746
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1747
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1749
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1751
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1750
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1752
+Jan 30, 2026 10:12:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1754
+Jan 30, 2026 10:12:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1755
+Jan 30, 2026 10:12:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1756
+Jan 30, 2026 10:12:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1758
+Jan 30, 2026 10:12:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1759
+2026.01.30 10:12:51 INFO  time: compiled My_Python-codes_d5c0a6989e in 12s
+Jan 30, 2026 10:13:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1795
+Jan 30, 2026 10:13:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1796
+Jan 30, 2026 10:13:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1835
+2026.01.30 10:13:18 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:13:25 INFO  time: compiled My_Python-codes_d5c0a6989e in 6.79s
+2026.01.30 10:13:50 INFO  no build target found for C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Loops.scala. Using presentation compiler with project's scala-library version: 3.7.4
+2026.01.30 10:13:50 WARN  no build target for: C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Loops.scala
+2026.01.30 10:13:52 INFO  time: Imported build in 0.29s
+2026.01.30 10:13:52 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:13:53 INFO  time: compiled My_Python-codes_d5c0a6989e in 1.05s
+Jan 30, 2026 10:13:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1903
+Jan 30, 2026 10:13:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1904
+Jan 30, 2026 10:13:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1905
+2026.01.30 10:13:58 INFO  time: indexed workspace in 6.63s
+2026.01.30 10:14:02 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:14:05 INFO  time: compiled My_Python-codes_d5c0a6989e in 3.62s
+2026.01.30 10:16:15 INFO  no build target found for C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Function_2.scala. Using presentation compiler with project's scala-library version: 3.7.4
+2026.01.30 10:16:15 WARN  no build target for: C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Function_2.scala
+2026.01.30 10:16:16 INFO  time: Imported build in 0.14s
+2026.01.30 10:16:17 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:16:17 INFO  time: compiled My_Python-codes_d5c0a6989e in 0.7s
+Jan 30, 2026 10:16:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1966
+Jan 30, 2026 10:16:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1967
+Jan 30, 2026 10:16:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1999
+2026.01.30 10:16:23 INFO  time: indexed workspace in 6.74s
+Jan 30, 2026 10:16:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2089
+Jan 30, 2026 10:16:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2090
+Jan 30, 2026 10:16:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2091
+Jan 30, 2026 10:16:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2094
+Jan 30, 2026 10:16:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2110
+Jan 30, 2026 10:16:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2123
+Jan 30, 2026 10:17:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2130
+Jan 30, 2026 10:17:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2261
+2026.01.30 10:17:50 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:17:53 INFO  time: compiled My_Python-codes_d5c0a6989e in 2.71s
+2026.01.30 10:18:46 INFO  no build target found for C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Class_Objects.scala. Using presentation compiler with project's scala-library version: 3.7.4
+2026.01.30 10:18:46 WARN  no build target for: C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Class_Objects.scala
+2026.01.30 10:18:47 INFO  time: Imported build in 0.16s
+2026.01.30 10:18:48 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:18:48 INFO  time: compiled My_Python-codes_d5c0a6989e in 0.97s
+Jan 30, 2026 10:18:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2416
+2026.01.30 10:18:54 INFO  time: indexed workspace in 6.31s
+2026.01.30 10:19:04 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:19:05 INFO  time: compiled My_Python-codes_d5c0a6989e in 1.47s
+Jan 30, 2026 10:19:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 30, 2026 10:19:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2482
+Jan 30, 2026 10:19:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2547
+Jan 30, 2026 10:20:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2620
+2026.01.30 10:20:16 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 10:20:18 INFO  time: compiled My_Python-codes_d5c0a6989e in 1.46s
