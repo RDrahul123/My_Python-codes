@@ -1748,3 +1748,12 @@ Jan 30, 2026 10:20:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 2620
 2026.01.30 10:20:16 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
 2026.01.30 10:20:18 INFO  time: compiled My_Python-codes_d5c0a6989e in 1.46s
+Jan 30, 2026 11:06:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2654
+Jan 30, 2026 11:46:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2689
+Jan 30, 2026 11:48:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2700
+2026.01.30 12:27:52 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
+2026.01.30 12:27:53 WARN  Could not load snapshot text for C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Function_2.scala
+2026.01.30 12:27:53 INFO  time: compiled My_Python-codes_d5c0a6989e in 1.45s

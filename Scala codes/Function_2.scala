@@ -9,7 +9,7 @@ object Function_2 {
     
     // Call the function and print the result
     val num1 = 5
-    val num2 = 6
+    val num2 = 7
     val result = add(num1, num2)
     println(s"The sum of $num1 and $num2 is: $result")
 
