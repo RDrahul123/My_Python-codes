@@ -4,12 +4,12 @@
     "C:\\Users\\rahul\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
     "bsp",
     "--json-options",
-    "C:\\Users\\rahul\\My Repos\\My_Python-codes\\.scala-build\\ide-options-v2.json",
+    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\My_Python-codes\\.scala-build\\ide-options-v2.json",
     "--json-launcher-options",
-    "C:\\Users\\rahul\\My Repos\\My_Python-codes\\.scala-build\\ide-launcher-options.json",
+    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\My_Python-codes\\.scala-build\\ide-launcher-options.json",
     "--envs-file",
-    "C:\\Users\\rahul\\My Repos\\My_Python-codes\\.scala-build\\ide-envs.json",
-    "C:\\Users\\rahul\\My Repos\\My_Python-codes"
+    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\My_Python-codes\\.scala-build\\ide-envs.json",
+    "C:\\Users\\rahul\\OneDrive\\Documents\\GitHub\\My_Python-codes"
   ],
   "version": "1.11.0",
   "bspVersion": "2.1.1",

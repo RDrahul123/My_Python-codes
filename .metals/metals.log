@@ -1757,3 +1757,206 @@ WARNING: Unmatched cancel notification for request id 2700
 2026.01.30 12:27:52 INFO  compiling my_python-codes_d5c0a6989e (1 scala source)
 2026.01.30 12:27:53 WARN  Could not load snapshot text for C:\Users\rahul\My Repos\My_Python-codes\Scala codes\Function_2.scala
 2026.01.30 12:27:53 INFO  time: compiled My_Python-codes_d5c0a6989e in 1.45s
+2026.01.30 12:58:46 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' for client Antigravity 1.104.0.
+2026.01.30 12:58:46 INFO  Memory monitor started
+2026.01.30 12:58:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.30 12:58:49 INFO  Attempting to connect to the build server...
+2026.01.30 12:58:49 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\My Repos\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\My Repos\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\My Repos\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\My Repos\My_Python-codes)
+2026.01.30 12:58:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.01.30 12:58:52 INFO  time: Connected to build server in 3.65s
+2026.01.30 12:58:52 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.30 12:58:52 INFO  time: Imported build in 0.28s
+2026.01.30 12:58:53 INFO  compiling my_python-codes_d5c0a6989e (1 scala source and 1 java source)
+2026.01.30 12:58:59 WARN  javac exited with exit code 1
+2026.01.30 12:58:59 INFO  time: compiled My_Python-codes_d5c0a6989e in 5.76s
+2026.01.30 12:58:59 INFO  compiling my_python-codes_d5c0a6989e (1 scala source and 1 java source)
+2026.01.30 12:59:03 WARN  javac exited with exit code 1
+2026.01.30 12:59:03 INFO  time: compiled My_Python-codes_d5c0a6989e in 3.2s
+2026.01.30 12:59:05 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.30 12:59:06 INFO  time: indexed workspace in 13s
+2026.01.30 12:59:06 WARN  no build target for: C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\Scala codes\Control.scala
+2026.01.30 12:59:06 INFO  no build target found for C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\Scala codes\Control.scala. Using presentation compiler with project's scala-library version: 3.7.4
+2026.01.30 13:03:33 INFO  Wrote configuration file for ide in: C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.bsp\scala-cli.json
+2026.01.30 13:03:33 INFO  time: ran 'scala-cli bspConfig' in 1.36s
+2026.01.30 13:03:33 INFO  Disconnecting from scala-cli session...
+2026.01.30 13:03:33 INFO  Shut down connection with build server.
+2026.01.30 13:03:33 INFO  BSP server: Jan 30, 2026 1:03:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.30 13:03:33 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.30 13:03:33 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.30 13:03:33 INFO  BSP server:   "method": "build/exit",
+2026.01.30 13:03:33 INFO  BSP server:   "params": null
+2026.01.30 13:03:33 INFO  BSP server: }
+2026.01.30 13:03:33 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.30 13:03:33 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.30 13:03:33 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.30 13:03:33 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.30 13:03:33 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.30 13:03:33 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.30 13:03:33 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.30 13:03:33 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:178)
+2026.01.30 13:03:33 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.30 13:03:33 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.30 13:03:33 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.30 13:03:33 INFO  BSP server: 	... 13 more
+2026.01.30 13:03:33 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.30 13:03:33 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.30 13:03:33 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.30 13:03:33 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:471)
+2026.01.30 13:03:33 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2026.01.30 13:03:33 INFO  BSP server: 	... 15 more
+2026.01.30 13:03:33 INFO  BSP server: 
+2026.01.30 13:03:34 INFO  Attempting to connect to the build server...
+2026.01.30 13:03:34 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.01.30 13:03:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.01.30 13:03:36 INFO  time: Connected to build server in 2.68s
+2026.01.30 13:03:36 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.30 13:03:36 INFO  time: Imported build in 0.11s
+2026.01.30 13:03:37 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 1 java source)
+2026.01.30 13:03:37 INFO  time: compiled My_Python-codes_19c1cefaf8 in 0.77s
+2026.01.30 13:03:37 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 1 java source)
+2026.01.30 13:03:39 INFO  time: compiled My_Python-codes_19c1cefaf8 in 0.96s
+2026.01.30 13:03:40 INFO  time: indexed workspace in 4.03s
+2026.01.30 13:03:41 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 1 java source)
+2026.01.30 13:03:42 INFO  time: compiled My_Python-codes_19c1cefaf8 in 1.06s
+Jan 30, 2026 1:03:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.01.30 13:07:00 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' for client Antigravity 1.104.0.
+2026.01.30 13:07:00 INFO  time: initialize in 0.11s
+2026.01.30 13:07:00 INFO  Memory monitor started
+2026.01.30 13:07:08 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.30 13:07:11 INFO  Attempting to connect to the build server...
+2026.01.30 13:07:11 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.01.30 13:07:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.01.30 13:07:31 INFO  time: Connected to build server in 19s
+2026.01.30 13:07:31 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.30 13:07:31 INFO  time: Imported build in 0.67s
+2026.01.30 13:07:38 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 2 java sources)
+2026.01.30 13:07:55 INFO  time: compiled My_Python-codes_19c1cefaf8 in 17s
+2026.01.30 13:07:58 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 2 java sources)
+2026.01.30 13:07:58 INFO  Created report: Optional[file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/hello.java]
+2026.01.30 13:07:58 INFO  QDox parse error in file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/hello.java (full report at: "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\.reports\metals-full\2026-01-30\r_qdox-error_(My_5fPython-codes_5f19c1cefaf8)_13-07-58-024.md")
+2026.01.30 13:08:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.30 13:08:03 INFO  time: compiled My_Python-codes_19c1cefaf8 in 5.87s
+2026.01.30 13:08:04 INFO  time: indexed workspace in 31s
+2026.01.30 13:08:05 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 2 java sources)
+2026.01.30 13:08:05 INFO  time: compiled My_Python-codes_19c1cefaf8 in 0.81s
+Jan 30, 2026 1:08:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 30, 2026 1:08:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 30, 2026 1:09:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 30, 2026 1:09:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+2026.01.30 13:10:15 INFO  time: Imported build in 0.51s
+2026.01.30 13:10:16 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 1 java source)
+2026.01.30 13:10:17 INFO  Deduplicating compilation of My_Python-codes_19c1cefaf8 from bsp client 'scala-cli 1.11.0' (since 2m 55.692s)
+2026.01.30 13:10:17 INFO  compiling my_python-codes_19c1cefaf8 (9 scala sources and 1 java source)
+Jan 30, 2026 1:10:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 85
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+Jan 30, 2026 1:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+2026.01.30 13:10:27 INFO  QDox parse error in file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/hello.java (full report at: "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\.reports\metals-full\2026-01-30\r_qdox-error_(My_5fPython-codes_5f19c1cefaf8)_13-07-58-024.md")
+2026.01.30 13:10:30 INFO  time: indexed workspace in 14s
+2026.01.30 13:10:31 INFO  Created report: Optional[file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/hello.java]
+2026.01.30 13:10:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\.reports\metals-full\2026-01-30\r_empty-definition_(My_5fPython-codes_5f19c1cefaf8)_13-10-31-107.md")
+2026.01.30 13:10:31 WARN  Invalid text document uri received from build server: file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/HelloWorld.java
+2026.01.30 13:10:31 WARN  Invalid text document uri received from build server: file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/HelloWorld.java
+2026.01.30 13:10:31 INFO  time: compiled My_Python-codes_19c1cefaf8 in 14s
+Jan 30, 2026 1:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 152
+Jan 30, 2026 1:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 151
+Jan 30, 2026 1:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 150
+Jan 30, 2026 1:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 157
+Jan 30, 2026 1:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+Jan 30, 2026 1:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 156
+Jan 30, 2026 1:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 185
+Jan 30, 2026 1:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+Jan 30, 2026 1:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+Jan 30, 2026 1:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Jan 30, 2026 1:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 188
+Jan 30, 2026 1:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+Jan 30, 2026 1:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+Jan 30, 2026 1:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+Jan 30, 2026 1:10:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 221
+Jan 30, 2026 1:10:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+Jan 30, 2026 1:10:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+2026.01.30 13:11:59 INFO  QDox parse error in file:///C:/Users/rahul/OneDrive/Documents/GitHub/My_Python-codes/Tensorflow_Files/hello.java (full report at: "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\.reports\metals-full\2026-01-30\r_qdox-error_(My_5fPython-codes_5f19c1cefaf8)_13-07-58-024.md")
+2026.01.30 13:12:00 INFO  compiling my_python-codes_19c1cefaf8 (1 java source)
+2026.01.30 13:12:02 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/rahul/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.01.30 13:12:02 INFO  time: compiled My_Python-codes_19c1cefaf8 in 2.26s
+2026.01.31 01:59:46 INFO  time: code lens generation in 1.48s
+2026.01.31 02:39:46 INFO  Shutting down server
+2026.01.31 02:39:46 INFO  Memory monitor stopped
+2026.01.31 02:39:46 INFO  shutting down Metals
+2026.01.31 22:53:47 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' for client Antigravity 1.104.0.
+2026.01.31 22:53:47 INFO  time: initialize in 0.22s
+2026.01.31 22:53:47 INFO  Memory monitor started
+2026.01.31 22:54:14 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.31 22:54:14 INFO  no build target found for C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\Tensorflow_Files\hello.java. Using fallback presentation compiler.
+2026.01.31 22:54:16 INFO  no build target found for C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\Tensorflow_Files\hello.java. Using fallback presentation compiler.
+2026.01.31 22:54:18 INFO  Attempting to connect to the build server...
+2026.01.31 22:54:18 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.01.31 22:54:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.01.31 22:54:29 INFO  BSP server: Starting compilation server
+2026.01.31 22:54:54 INFO  Shutting down server
+2026.01.31 22:54:54 INFO  Memory monitor stopped
+2026.01.31 22:54:54 INFO  shutting down Metals
+2026.01.31 22:54:54 INFO  Exiting server
+2026.01.31 22:57:24 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' for client Antigravity 1.104.0.
+2026.01.31 22:57:24 INFO  time: initialize in 0.16s
+2026.01.31 22:57:26 INFO  Memory monitor started
+2026.01.31 22:57:35 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.31 22:57:42 INFO  Attempting to connect to the build server...
+2026.01.31 22:57:42 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.01.31 22:57:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.01.31 22:57:57 INFO  no build target found for C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\Scala codes\Control.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.01.31 22:57:58 INFO  time: Connected to build server in 16s
+2026.01.31 22:57:58 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.31 22:58:01 INFO  time: Imported build in 2.78s
+Jan 31, 2026 10:58:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.31 22:58:35 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.31 22:58:40 INFO  time: indexed workspace in 22s
