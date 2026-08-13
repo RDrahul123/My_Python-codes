@@ -6739,3 +6739,1268 @@ WARNING: Unmatched cancel notification for request id 519
 2026.08.07 01:20:11 INFO  Shutting down server
 2026.08.07 01:20:11 INFO  Memory monitor stopped
 2026.08.07 01:20:11 INFO  shutting down Metals
+2026.08.07 10:20:17 INFO  Tracing is disabled for protocol LSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at c:\Users\rahul\Github\My_Python-codes\.metals\lsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.08.07 10:20:31 INFO  logging to files C:\Users\rahul\Github\My_Python-codes\.metals\metals.log
+2026.08.07 10:20:31 INFO  Started: Metals version 1.6.8 in folders 'C:\Users\rahul\Github\My_Python-codes' for client Visual Studio Code 1.132.0.
+2026.08.07 10:20:32 INFO  time: initialize in 0.21s
+2026.08.07 10:20:31 INFO  Memory monitor started
+2026.08.07 10:20:51 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.07 10:20:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:20:55 INFO  Attempting to connect to the build server...
+2026.08.07 10:20:55 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.07 10:20:58 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.07 10:21:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:21:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:21:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:21:02 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:21:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:21:02 INFO  BSP server: 	... 6 more
+2026.08.07 10:21:02 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:21:02 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786078262-2190404242989015909.log'
+2026.08.07 10:21:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:21:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:21:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:21:02 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:21:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:21:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:21:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:21:02 INFO  BSP server: 	... 6 more
+2026.08.07 10:21:05 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 07, 2026 10:21:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Aug 07, 2026 10:21:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.08.07 10:21:05 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:05 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 07, 2026 10:21:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Aug 07, 2026 10:21:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.08.07 10:21:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 07, 2026 10:21:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2026.08.07 10:21:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:37 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+2026.08.07 10:21:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 07, 2026 10:21:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2026.08.07 10:21:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:21:59 ERROR Timeout waiting for 'build/initialize' response
+2026.08.07 10:21:59 WARN  Retrying connection to the build server scala-cli
+2026.08.07 10:21:59 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.07 10:21:59 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.07 10:22:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:22:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:22:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:22:00 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:22:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:22:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:22:00 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:22:00 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786078320-4846158548731794155.log'
+2026.08.07 10:22:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:22:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:22:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:22:00 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:22:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:22:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:22:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:22:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:22:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:22:59 ERROR Timeout waiting for 'build/initialize' response
+2026.08.07 10:22:59 WARN  Retrying connection to the build server scala-cli
+2026.08.07 10:22:59 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.07 10:23:00 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.07 10:23:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:23:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:23:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:23:00 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:23:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:23:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:23:00 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:23:00 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786078380-16070874474037887816.log'
+2026.08.07 10:23:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:23:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:23:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:23:00 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:23:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:23:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:23:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:23:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:23:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:24:00 ERROR Timeout waiting for 'build/initialize' response
+2026.08.07 10:24:00 WARN  Retrying connection to the build server scala-cli
+2026.08.07 10:24:00 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.07 10:24:00 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.07 10:24:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:24:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:24:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:24:00 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:24:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:24:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:24:00 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:24:00 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786078440-15148652865465041874.log'
+2026.08.07 10:24:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:24:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:24:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:24:00 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:24:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:24:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:24:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:24:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:25:00 ERROR Timeout waiting for 'build/initialize' response
+2026.08.07 10:25:00 WARN  Retrying connection to the build server scala-cli
+2026.08.07 10:25:00 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.07 10:25:00 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.07 10:25:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:25:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:25:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:25:00 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:25:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:25:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:25:00 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:25:00 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786078500-8967313816803316894.log'
+2026.08.07 10:25:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:25:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:25:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:25:00 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:25:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:25:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:25:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:25:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:26:00 ERROR Timeout waiting for 'build/initialize' response
+2026.08.07 10:26:00 WARN  Retrying connection to the build server scala-cli
+2026.08.07 10:26:00 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.07 10:26:00 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.07 10:26:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:26:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:26:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:26:00 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:26:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:26:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:26:00 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:26:00 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786078560-11355383338759519271.log'
+2026.08.07 10:26:00 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.07 10:26:00 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.07 10:26:00 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.07 10:26:00 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.07 10:26:00 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.07 10:26:00 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.07 10:26:00 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.07 10:26:00 INFO  BSP server: 	... 6 more
+2026.08.07 10:27:00 ERROR Timeout waiting for 'build/initialize' response
+2026.08.07 10:27:00 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2026.08.07 10:27:00 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+2026.08.07 10:27:00 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\input.scala
+2026.08.07 10:27:00 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+2026.08.07 10:27:00 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:27:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\input.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:27:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:27:03 INFO  time: code lens generation in 2.73s
+2026.08.07 10:27:03 INFO  time: code lens generation in 2.73s
+2026.08.07 10:27:03 INFO  time: code lens generation in 2.73s
+2026.08.07 10:27:03 INFO  time: code lens generation in 2.73s
+2026.08.07 10:27:15 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:27:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:05 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:05 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:08 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+2026.08.07 10:28:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:40 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+2026.08.07 10:28:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:28:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:43 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:43 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 07, 2026 10:30:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+2026.08.07 10:30:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:30:52 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+2026.08.07 10:31:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:31:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:31:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:31:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:31:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:31:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:31:06 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+2026.08.07 10:31:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:39:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:39:07 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+2026.08.07 10:39:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:39:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:39:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:05 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+2026.08.07 10:40:43 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:43 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 07, 2026 10:40:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 159
+2026.08.07 10:40:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.07 10:40:53 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+2026.08.08 04:17:18 INFO  Shutting down server
+2026.08.08 04:17:18 INFO  Memory monitor stopped
+2026.08.08 04:17:18 INFO  shutting down Metals
+2026.08.08 04:17:18 INFO  Exiting server
+2026.08.09 11:54:30 INFO  Tracing is disabled for protocol LSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at c:\Users\rahul\Github\My_Python-codes\.metals\lsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.08.09 11:54:43 INFO  logging to files C:\Users\rahul\Github\My_Python-codes\.metals\metals.log
+2026.08.09 11:54:43 INFO  Started: Metals version 1.6.8 in folders 'C:\Users\rahul\Github\My_Python-codes' for client Visual Studio Code 1.132.0.
+2026.08.09 11:54:43 INFO  time: initialize in 0.12s
+2026.08.09 11:54:43 INFO  Memory monitor started
+2026.08.09 11:54:56 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.09 11:54:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 11:54:57 INFO  Attempting to connect to the build server...
+2026.08.09 11:54:57 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.09 11:55:01 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.09 11:55:01 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:55:01 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:55:01 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:55:01 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:55:01 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:55:01 INFO  BSP server: 	... 6 more
+2026.08.09 11:55:01 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:55:01 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786256701-10755469706234003784.log'
+2026.08.09 11:55:01 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:55:01 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:55:01 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:55:01 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:55:01 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:55:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:55:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:55:01 INFO  BSP server: 	... 6 more
+2026.08.09 11:55:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 11:56:01 ERROR Timeout waiting for 'build/initialize' response
+2026.08.09 11:56:01 WARN  Retrying connection to the build server scala-cli
+2026.08.09 11:56:01 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.09 11:56:01 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.09 11:56:01 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:56:01 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:56:01 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:56:01 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:56:01 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:56:01 INFO  BSP server: 	... 6 more
+2026.08.09 11:56:01 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:56:01 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786256761-7492200791809698712.log'
+2026.08.09 11:56:01 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:56:01 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:56:01 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:56:01 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:56:01 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:56:01 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:56:01 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:56:01 INFO  BSP server: 	... 6 more
+2026.08.09 11:56:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 11:57:01 ERROR Timeout waiting for 'build/initialize' response
+2026.08.09 11:57:01 WARN  Retrying connection to the build server scala-cli
+2026.08.09 11:57:01 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.09 11:57:01 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.09 11:57:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:57:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:57:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:57:02 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:57:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:57:02 INFO  BSP server: 	... 6 more
+2026.08.09 11:57:02 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:57:02 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786256822-8168231395372555368.log'
+2026.08.09 11:57:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:57:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:57:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:57:02 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:57:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:57:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:57:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:57:02 INFO  BSP server: 	... 6 more
+Aug 09, 2026 11:57:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 09, 2026 11:57:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 11:57:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 11:57:55 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 11:58:01 ERROR Timeout waiting for 'build/initialize' response
+2026.08.09 11:58:01 WARN  Retrying connection to the build server scala-cli
+2026.08.09 11:58:01 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.09 11:58:01 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.09 11:58:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:58:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:58:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:58:02 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:58:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:58:02 INFO  BSP server: 	... 6 more
+2026.08.09 11:58:02 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:58:02 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786256882-15417373663014501954.log'
+2026.08.09 11:58:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:58:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:58:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:58:02 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:58:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:58:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:58:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:58:02 INFO  BSP server: 	... 6 more
+2026.08.09 11:58:21 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 11:58:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 11:58:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 11:59:01 ERROR Timeout waiting for 'build/initialize' response
+2026.08.09 11:59:01 WARN  Retrying connection to the build server scala-cli
+2026.08.09 11:59:01 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.09 11:59:01 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.09 11:59:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:59:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:59:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:59:02 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:59:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:59:02 INFO  BSP server: 	... 6 more
+2026.08.09 11:59:02 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:59:02 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786256942-10771462719746289177.log'
+2026.08.09 11:59:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 11:59:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 11:59:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 11:59:02 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 11:59:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 11:59:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 11:59:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 11:59:02 INFO  BSP server: 	... 6 more
+Aug 09, 2026 11:59:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 12:00:01 ERROR Timeout waiting for 'build/initialize' response
+2026.08.09 12:00:01 WARN  Retrying connection to the build server scala-cli
+2026.08.09 12:00:01 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.09 12:00:01 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.09 12:00:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 12:00:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 12:00:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 12:00:02 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 12:00:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 12:00:02 INFO  BSP server: 	... 6 more
+2026.08.09 12:00:02 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 12:00:02 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786257002-13024872585977945538.log'
+2026.08.09 12:00:02 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.09 12:00:02 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.09 12:00:02 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.09 12:00:02 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.09 12:00:02 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.09 12:00:02 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.09 12:00:02 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.09 12:00:02 INFO  BSP server: 	... 6 more
+2026.08.09 12:00:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:01:02 ERROR Timeout waiting for 'build/initialize' response
+2026.08.09 12:01:02 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2026.08.09 12:01:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:01:02 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+2026.08.09 12:01:03 INFO  time: code lens generation in 1.49s
+Aug 09, 2026 12:11:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 09, 2026 12:11:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 12:11:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:11:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:11:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:11:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 12:11:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 09, 2026 12:11:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 09, 2026 12:11:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 12:11:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 12:12:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 12:12:00 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 12:12:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 12:12:00 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 12:12:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.09 12:12:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 09, 2026 12:12:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2026.08.09 12:12:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:44:18 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:44:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.09 12:50:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 11:13:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2026.08.12 11:13:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 11:13:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2026.08.12 11:13:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:13:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 11:14:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.12 11:14:12 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:14:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:15:18 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala
+Aug 12, 2026 11:35:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+2026.08.12 11:35:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:35:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:31 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:31 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 11:36:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+2026.08.12 11:36:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 11:36:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 156
+2026.08.12 11:36:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:36:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 11:37:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 1:55:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.12 13:55:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 1:55:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 12, 2026 1:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 221
+2026.08.12 13:55:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:55:57 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala
+2026.08.12 13:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:55:58 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+Aug 12, 2026 1:55:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 224
+2026.08.12 13:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:56:01 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala
+2026.08.12 13:56:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\try_catch.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:56:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:56:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:56:01 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala
+Aug 12, 2026 1:56:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+2026.08.12 13:56:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:56:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 1:56:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+2026.08.12 13:56:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.12 13:59:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\new.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 12, 2026 3:01:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 13, 2026 1:32:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.13 11:44:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:44:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:44:55 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala
+Aug 13, 2026 11:44:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 238
+2026.08.13 11:44:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:44:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 241
+2026.08.13 11:44:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:44:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:44:57 INFO  time: code lens generation in 1.03s
+2026.08.13 11:45:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:09 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:45:12 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:12 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:12 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:12 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:15 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:15 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:15 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:16 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:16 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:26 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:45:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+2026.08.13 11:45:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:29 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:45:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:45:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.13 11:45:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:58 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:58 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:45:58 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:43 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:46:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+2026.08.13 11:46:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:46:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:00 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:05 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:47:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:17 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:24 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala
+Aug 13, 2026 11:47:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 368
+2026.08.13 11:47:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:47:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 370
+2026.08.13 11:47:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:26 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:30 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:47:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:47:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 376
+2026.08.13 11:47:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:47:39 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala
+Aug 13, 2026 11:47:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 389
+2026.08.13 11:47:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:48:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.13 11:48:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:48:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:48:38 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:48:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:48:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+2026.08.13 11:48:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:48:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:48:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:48:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 406
+2026.08.13 11:48:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:48:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:49:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:49:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:49:41 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:49:42 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:49:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:49:52 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:49:53 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:49:53 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:55:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:55:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 447
+2026.08.13 11:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:55:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:00 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:00 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:12 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:12 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 11:56:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:56:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+2026.08.13 11:56:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:17 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:17 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:17 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:17 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:21 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:21 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:21 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:56:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 494
+2026.08.13 11:56:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:56:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 504
+2026.08.13 11:56:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:31 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:33 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:33 INFO  Created report: Optional[file:///C:/Users/rahul/Github/My_Python-codes/Scala%20codes/multiple.scala]
+2026.08.13 11:56:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\rahul\Github\My_Python-codes\.metals\.reports\metals-full\2026-08-13\r_empty-definition_11-56-33-526.md")
+2026.08.13 11:56:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:56:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 537
+2026.08.13 11:56:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:40 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:56:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 545
+2026.08.13 11:56:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:54 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 11:56:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+2026.08.13 11:56:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:56 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:58 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:56:59 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:57:02 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 11:57:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:57:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:57:57 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 11:57:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:57:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:57:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:58:01 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:58:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:58:03 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 11:58:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:58:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:58:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:52 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 11:59:53 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:00:12 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:00:12 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:00:12 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:00:12 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:02:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Class and objects_2.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:02:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Inheritance.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:02:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Inheritance.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:02:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Inheritance.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:02:37 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Inheritance.scala
+Aug 13, 2026 12:02:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 636
+2026.08.13 12:02:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Inheritance.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:04:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:04:29 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 12:04:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:04:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:11:47 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 12:15:35 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala
+2026.08.13 12:15:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:16:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 12:16:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 653
+2026.08.13 12:16:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 12:16:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 654
+2026.08.13 12:16:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:16:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:16:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:20:06 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\traits.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:07 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:08 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+Aug 13, 2026 12:22:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 661
+2026.08.13 12:22:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:08 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:08 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:22:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:22:50 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:12 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:23:13 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:38 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:23:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:42 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:46 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:23:46 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:23:47 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:23:47 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:28:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Inheritance.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Variables.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:02 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\Variables.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:02 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\Variables.scala
+2026.08.13 12:28:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:44 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.08.13 12:28:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 12:28:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 716
+2026.08.13 12:28:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:45 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 12:28:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 1:18:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.13 13:23:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 10:37:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.13 22:37:32 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 10:37:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 13, 2026 10:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 743
+2026.08.13 22:37:33 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.13 22:37:57 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Aug 13, 2026 10:38:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 13, 2026 10:38:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.13 22:41:52 INFO  Tracing is disabled for protocol LSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at c:\Users\rahul\Github\My_Python-codes\.metals\lsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.08.13 22:42:14 INFO  logging to files C:\Users\rahul\Github\My_Python-codes\.metals\metals.log
+2026.08.13 22:42:14 INFO  Started: Metals version 1.6.8 in folders 'C:\Users\rahul\Github\My_Python-codes' for client Visual Studio Code 1.132.0.
+2026.08.13 22:42:15 INFO  time: initialize in 0.46s
+2026.08.13 22:42:16 INFO  Memory monitor started
+2026.08.13 22:42:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.13 22:42:33 INFO  Attempting to connect to the build server...
+2026.08.13 22:42:33 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.08.13 22:42:35 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.13 22:42:37 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.13 22:42:37 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.13 22:42:37 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.13 22:42:37 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.13 22:42:37 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.13 22:42:37 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.08.13 22:42:37 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.13 22:42:37 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.13 22:42:37 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.13 22:42:37 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.13 22:42:37 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.13 22:42:37 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.13 22:42:37 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.13 22:42:37 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.13 22:42:37 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.13 22:42:37 INFO  BSP server: 	... 6 more
+2026.08.13 22:42:38 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.13 22:42:38 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1786641157-17670100134101912579.log'
+2026.08.13 22:42:38 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.08.13 22:42:38 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.08.13 22:42:38 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.08.13 22:42:38 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.08.13 22:42:38 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.08.13 22:42:38 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.08.13 22:42:38 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.08.13 22:42:38 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.08.13 22:42:38 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.08.13 22:42:38 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.08.13 22:42:38 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.08.13 22:42:38 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.08.13 22:42:38 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.08.13 22:42:38 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.08.13 22:42:38 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.08.13 22:42:38 INFO  BSP server: 	... 6 more

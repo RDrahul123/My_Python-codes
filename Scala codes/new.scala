@@ -19,8 +19,8 @@ object HelloWorld {
   
 val datePattern = """(\d{4})-(\d{2})-(\d{2})""".r   // .r turns a String into a Regex
 
-"26-07-28" match {
-  case datePattern(year, month, day) => println(s"year=$year month=$month")
+"2026-07-28" match {
+  case datePattern(year, month, day) => println(s"year=$year month=$month day=$day")
   case _ => println("no match")
 }
 
