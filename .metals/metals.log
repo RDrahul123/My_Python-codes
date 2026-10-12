@@ -12065,3 +12065,645 @@ INFO: Unsupported notification method: $/setTrace
 2026.09.25 12:32:36 INFO  Memory monitor stopped
 2026.09.25 12:32:36 INFO  shutting down Metals
 2026.09.25 12:32:36 INFO  Exiting server
+2026.09.25 12:33:19 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\rahul\Github\My_Python-codes' for client Visual Studio Code 1.139.0.
+2026.09.25 12:33:19 INFO  Memory monitor started
+2026.09.25 12:33:23 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.25 12:33:27 INFO  Attempting to connect to the build server...
+2026.09.25 12:33:27 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.25 12:33:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.25 12:33:30 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:33:30 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:33:30 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:33:30 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:33:30 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:33:30 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.25 12:33:30 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:33:30 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:33:30 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:33:30 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:33:30 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:33:30 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:33:30 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:33:30 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:33:30 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:33:30 INFO  BSP server: 	... 6 more
+2026.09.25 12:33:32 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:33:32 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790319810-4364410837164361490.log'
+2026.09.25 12:33:32 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:33:32 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:33:32 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:33:32 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:33:32 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:33:32 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.25 12:33:32 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:33:32 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:33:32 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:33:32 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:33:32 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:33:32 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:33:32 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:33:32 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:33:32 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:33:32 INFO  BSP server: 	... 6 more
+2026.09.25 12:34:28 ERROR Timeout waiting for 'build/initialize' response
+2026.09.25 12:34:28 WARN  Retrying connection to the build server scala-cli
+2026.09.25 12:34:28 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.25 12:34:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.25 12:34:29 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:34:29 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:34:29 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:34:29 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:34:29 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:34:29 INFO  BSP server: 	... 6 more
+2026.09.25 12:34:29 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:34:29 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790319869-14473209918771489932.log'
+2026.09.25 12:34:29 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:34:29 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:34:29 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:34:29 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:34:29 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:34:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:34:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:34:29 INFO  BSP server: 	... 6 more
+2026.09.25 12:35:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.25 12:35:24 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+Sep 25, 2026 12:35:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.09.25 12:35:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.25 12:35:24 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 25, 2026 12:35:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Sep 25, 2026 12:35:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.09.25 12:35:28 ERROR Timeout waiting for 'build/initialize' response
+2026.09.25 12:35:28 WARN  Retrying connection to the build server scala-cli
+2026.09.25 12:35:28 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.25 12:35:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.25 12:35:28 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:35:28 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:35:28 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:35:28 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:35:28 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:35:28 INFO  BSP server: 	... 6 more
+2026.09.25 12:35:28 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:35:28 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790319928-10181514817140780059.log'
+2026.09.25 12:35:28 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:35:28 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:35:28 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:35:28 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:35:28 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:35:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:35:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:35:28 INFO  BSP server: 	... 6 more
+2026.09.25 12:36:28 ERROR Timeout waiting for 'build/initialize' response
+2026.09.25 12:36:28 WARN  Retrying connection to the build server scala-cli
+2026.09.25 12:36:28 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.25 12:36:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.25 12:36:28 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:36:28 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:36:28 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:36:28 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:36:28 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:36:28 INFO  BSP server: 	... 6 more
+2026.09.25 12:36:28 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:36:28 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790319988-16387318310753155933.log'
+2026.09.25 12:36:28 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:36:28 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:36:28 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:36:28 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:36:28 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:36:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:36:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:36:28 INFO  BSP server: 	... 6 more
+2026.09.25 12:37:28 ERROR Timeout waiting for 'build/initialize' response
+2026.09.25 12:37:28 WARN  Retrying connection to the build server scala-cli
+2026.09.25 12:37:28 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.25 12:37:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.25 12:37:28 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:37:28 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:37:28 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:37:28 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:37:28 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:37:28 INFO  BSP server: 	... 6 more
+2026.09.25 12:37:28 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:37:28 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790320048-10262497022140995114.log'
+2026.09.25 12:37:28 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:37:28 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:37:28 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:37:28 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:37:28 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:37:28 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:37:28 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:37:28 INFO  BSP server: 	... 6 more
+2026.09.25 12:38:28 ERROR Timeout waiting for 'build/initialize' response
+2026.09.25 12:38:28 WARN  Retrying connection to the build server scala-cli
+2026.09.25 12:38:28 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.25 12:38:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.25 12:38:29 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:38:29 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:38:29 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:38:29 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:38:29 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:38:29 INFO  BSP server: 	... 6 more
+2026.09.25 12:38:29 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:38:29 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790320109-6014548534016037510.log'
+2026.09.25 12:38:29 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.25 12:38:29 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.25 12:38:29 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.25 12:38:29 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.25 12:38:29 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.25 12:38:29 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.25 12:38:29 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.25 12:38:29 INFO  BSP server: 	... 6 more
+2026.09.25 12:39:28 ERROR Timeout waiting for 'build/initialize' response
+2026.09.25 12:39:28 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2026.09.25 12:39:28 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\case.scala
+2026.09.25 12:39:28 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.09.25 12:39:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\case.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.25 12:39:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.25 12:39:34 INFO  time: code lens generation in 6.22s
+2026.09.28 11:06:34 INFO  Tracing is disabled for protocol LSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at c:\Users\rahul\Github\My_Python-codes\.metals\lsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.09.28 11:06:44 INFO  logging to files C:\Users\rahul\Github\My_Python-codes\.metals\metals.log
+2026.09.28 11:06:44 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\rahul\Github\My_Python-codes' for client Visual Studio Code 1.139.1.
+2026.09.28 11:06:44 INFO  time: initialize in 0.52s
+2026.09.28 11:06:45 INFO  Memory monitor started
+2026.09.28 11:06:59 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.28 11:07:02 INFO  Attempting to connect to the build server...
+2026.09.28 11:07:02 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.28 11:07:04 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.28 11:07:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:07:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:07:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:07:05 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:07:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:07:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:07:05 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:07:05 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790573825-14206528789015629510.log'
+2026.09.28 11:07:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:07:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:07:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:07:05 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:07:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:07:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:07:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:07:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:08:05 ERROR Timeout waiting for 'build/initialize' response
+2026.09.28 11:08:05 WARN  Retrying connection to the build server scala-cli
+2026.09.28 11:08:05 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.28 11:08:05 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.28 11:08:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:08:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:08:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:08:05 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:08:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:08:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:08:05 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:08:05 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790573885-10524385716032298355.log'
+2026.09.28 11:08:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:08:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:08:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:08:05 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:08:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:08:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:08:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:08:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:08:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:08:26 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 28, 2026 11:08:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2026.09.28 11:08:49 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:08:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:08:49 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:08:49 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:08:50 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:08:51 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 28, 2026 11:08:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.28 11:08:58 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:05 ERROR Timeout waiting for 'build/initialize' response
+2026.09.28 11:09:05 WARN  Retrying connection to the build server scala-cli
+2026.09.28 11:09:05 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.28 11:09:05 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.28 11:09:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:09:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:09:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:09:05 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:09:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:09:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:09:05 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:09:05 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790573945-1877821628980494321.log'
+2026.09.28 11:09:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:09:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:09:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:09:05 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:09:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:09:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:09:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:09:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:09:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:09:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:10:03 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:10:05 ERROR Timeout waiting for 'build/initialize' response
+2026.09.28 11:10:05 WARN  Retrying connection to the build server scala-cli
+2026.09.28 11:10:05 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.28 11:10:05 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.28 11:10:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:10:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:10:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:10:05 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:10:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:10:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:10:05 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:10:05 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790574005-664367948626395574.log'
+2026.09.28 11:10:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:10:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:10:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:10:05 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:10:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:10:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:10:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:10:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:11:05 ERROR Timeout waiting for 'build/initialize' response
+2026.09.28 11:11:05 WARN  Retrying connection to the build server scala-cli
+2026.09.28 11:11:05 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.28 11:11:05 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.28 11:11:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:11:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:11:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:11:05 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:11:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:11:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:11:05 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:11:05 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790574065-7188700670359671368.log'
+2026.09.28 11:11:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:11:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:11:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:11:05 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:11:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:11:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:11:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:11:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:11:10 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:11:11 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:11:11 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:11:11 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:11:11 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:11:14 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:11:19 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:11:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 28, 2026 11:11:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.28 11:11:30 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:12:05 ERROR Timeout waiting for 'build/initialize' response
+2026.09.28 11:12:05 WARN  Retrying connection to the build server scala-cli
+2026.09.28 11:12:05 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.09.28 11:12:05 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\rahul\Github\My_Python-codes\.metals\bsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.28 11:12:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook-monitor" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:12:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:12:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:12:05 INFO  BSP server: 	at os.proc$$anon$2.run(ProcessOps.scala:335)
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:12:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:12:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:12:05 INFO  BSP server: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:12:05 INFO  BSP server: For more details, please see 'C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\stacktraces\1790574125-13341104729716729292.log'
+2026.09.28 11:12:05 INFO  BSP server: Exception in thread "subprocess-shutdown-hook" java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-25\bin\java.exe" (in directory "C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes"): CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2026.09.28 11:12:05 INFO  BSP server: 	at os.proc.proc$lzyINIT1$1(ProcessOps.scala:345)
+2026.09.28 11:12:05 INFO  BSP server: 	at os.proc.os$proc$$_$proc$1(ProcessOps.scala:351)
+2026.09.28 11:12:05 INFO  BSP server: 	at os.proc$$anon$1.run(ProcessOps.scala:329)
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:179)
+2026.09.28 11:12:05 INFO  BSP server: Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions$NewObjectWithObjectArrayArgFunctionPointer.invoke(JNIFunctions.java)
+2026.09.28 11:12:05 INFO  BSP server: 	at com.oracle.svm.core.jni.functions.JNIFunctions.ThrowNew(JNIFunctions.java:889)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.create(Native Method)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2026.09.28 11:12:05 INFO  BSP server: 	at java.base@17.0.9/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2026.09.28 11:12:05 INFO  BSP server: 	... 6 more
+2026.09.28 11:13:05 ERROR Timeout waiting for 'build/initialize' response
+2026.09.28 11:13:05 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2026.09.28 11:13:05 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala
+2026.09.28 11:13:05 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:13:05 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\multiple.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:17:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 28, 2026 11:24:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.28 11:28:15 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:36:55 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:19 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:23 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:23 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:23 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:23 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:23 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:25 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 28, 2026 11:38:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 263
+2026.09.28 11:38:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:27 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:28 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:29 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:38:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:29 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:38:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:35 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:36 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:37 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:38 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:39 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.28 11:39:39 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:57 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:56 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:57 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:57 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 11:39:58 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+2026.09.28 12:06:54 WARN  no build target for: C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala
+Sep 28, 2026 2:15:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 29, 2026 11:26:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.01 10:38:34 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 01, 2026 10:38:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 351
+Oct 01, 2026 10:38:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 353
+Oct 01, 2026 10:38:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 01, 2026 10:38:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.01 10:40:42 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:42 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:44 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:47 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 10:40:49 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 11:57:09 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 11:57:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 01, 2026 11:57:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.01 11:57:20 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 01, 2026 11:57:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 01, 2026 11:57:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.01 11:57:26 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 12:05:04 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.01 12:17:48 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.02 13:23:16 INFO  Shutting down server
+2026.10.02 13:23:16 INFO  Memory monitor stopped
+2026.10.02 13:23:16 INFO  shutting down Metals
+2026.10.12 12:03:15 INFO  Tracing is disabled for protocol LSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at c:\Users\rahul\Github\My_Python-codes\.metals\lsp.trace.json or C:\Users\rahul\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.10.12 12:03:19 INFO  logging to files C:\Users\rahul\Github\My_Python-codes\.metals\metals.log
+2026.10.12 12:03:19 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\rahul\Github\My_Python-codes' for client Visual Studio Code 1.140.0.
+2026.10.12 12:03:19 INFO  Memory monitor started
+2026.10.12 12:03:22 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.12 12:03:22 INFO  no build target found for C:\Users\rahul\Github\My_Python-codes\Scala codes\collections.scala. Using presentation compiler with project's scala-library version: 3.3.8
