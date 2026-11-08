@@ -13785,3 +13785,824 @@ Nov 07, 2026 10:49:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFO: Unsupported notification method: $/setTrace
 Nov 07, 2026 10:51:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Nov 07, 2026 10:52:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.07 23:09:33 INFO  Shutting down server
+2026.11.07 23:09:33 INFO  Memory monitor stopped
+2026.11.07 23:09:33 INFO  shutting down Metals
+2026.11.07 23:09:33 INFO  Exiting server
+2026.11.07 23:09:37 INFO  Started: Metals version 1.6.9 in folders '/Users/prakrit/Documents/Vs-code/My_Python-codes' for client Visual Studio Code 1.145.2.
+2026.11.07 23:09:37 INFO  Memory monitor started
+2026.11.07 23:09:39 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.07 23:09:39 INFO  Attempting to connect to the build server...
+2026.11.07 23:09:39 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:09:39 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:09:39 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:10:37 INFO  Shutting down server
+2026.11.07 23:10:37 INFO  Memory monitor stopped
+2026.11.07 23:10:37 INFO  shutting down Metals
+2026.11.07 23:10:37 INFO  Exiting server
+2026.11.07 23:10:51 INFO  Started: Metals version 1.6.9 in folders '/Users/prakrit/Documents/Vs-code/My_Python-codes' for client Visual Studio Code 1.145.2.
+2026.11.07 23:10:51 INFO  Memory monitor started
+2026.11.07 23:10:54 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.07 23:10:54 INFO  Attempting to connect to the build server...
+2026.11.07 23:10:54 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:10:54 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:10:54 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@7397925a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 52]
+2026.11.07 23:11:39 INFO  Started: Metals version 1.6.9 in folders '/Users/prakrit/Documents/Vs-code/My_Python-codes' for client Visual Studio Code 1.145.2.
+2026.11.07 23:11:39 INFO  Memory monitor started
+2026.11.07 23:11:41 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.07 23:11:41 INFO  Attempting to connect to the build server...
+2026.11.07 23:11:41 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:11:41 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:11:41 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:12:41 ERROR Timeout waiting for 'build/initialize' response
+2026.11.07 23:12:41 WARN  Retrying connection to the build server scala-cli
+2026.11.07 23:12:41 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:12:41 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:12:41 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:13:41 ERROR Timeout waiting for 'build/initialize' response
+2026.11.07 23:13:41 WARN  Retrying connection to the build server scala-cli
+2026.11.07 23:13:41 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:13:41 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:13:41 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:14:41 ERROR Timeout waiting for 'build/initialize' response
+2026.11.07 23:14:41 WARN  Retrying connection to the build server scala-cli
+2026.11.07 23:14:41 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:14:41 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:14:41 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:15:41 ERROR Timeout waiting for 'build/initialize' response
+2026.11.07 23:15:41 WARN  Retrying connection to the build server scala-cli
+2026.11.07 23:15:41 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:15:41 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:15:41 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:16:41 ERROR Timeout waiting for 'build/initialize' response
+2026.11.07 23:16:41 WARN  Retrying connection to the build server scala-cli
+2026.11.07 23:16:41 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.07 23:16:41 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.07 23:16:41 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.07 23:17:41 ERROR Timeout waiting for 'build/initialize' response
+2026.11.07 23:17:41 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:37:17 INFO  Started: Metals version 1.6.9 in folders '/Users/prakrit/Documents/Vs-code/My_Python-codes' for client Visual Studio Code 1.145.2.
+2026.11.08 15:37:17 INFO  Memory monitor started
+Nov 08, 2026 3:37:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.08 15:37:22 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.08 15:37:22 INFO  Attempting to connect to the build server...
+2026.11.08 15:37:22 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 15:37:22 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:37:22 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 15:38:22 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 15:38:22 WARN  Retrying connection to the build server scala-cli
+2026.11.08 15:38:22 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 15:38:22 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:38:22 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 15:39:22 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 15:39:22 WARN  Retrying connection to the build server scala-cli
+2026.11.08 15:39:22 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 15:39:22 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:39:22 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 15:40:22 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 15:40:22 WARN  Retrying connection to the build server scala-cli
+2026.11.08 15:40:22 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 15:40:22 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:40:22 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 15:41:22 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 15:41:22 WARN  Retrying connection to the build server scala-cli
+2026.11.08 15:41:22 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 15:41:22 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:41:22 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 15:42:22 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 15:42:22 WARN  Retrying connection to the build server scala-cli
+2026.11.08 15:42:22 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 15:42:22 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 15:42:22 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 15:43:22 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 15:43:22 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:06:14 INFO  Started: Metals version 1.6.9 in folders '/Users/prakrit/Documents/Vs-code/My_Python-codes' for client Visual Studio Code 1.145.2.
+2026.11.08 20:06:14 INFO  Memory monitor started
+2026.11.08 20:06:20 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.08 20:06:20 INFO  Attempting to connect to the build server...
+2026.11.08 20:06:20 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 20:06:20 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:167)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:185)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:260)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$7(ConnectionProvider.scala:586)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:06:20 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 20:13:04 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 20:13:04 WARN  Retrying connection to the build server scala-cli
+2026.11.08 20:13:04 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 20:13:04 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:13:04 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 20:14:04 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 20:14:04 WARN  Retrying connection to the build server scala-cli
+2026.11.08 20:14:04 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 20:14:04 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:14:04 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 20:15:04 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 20:15:04 WARN  Retrying connection to the build server scala-cli
+2026.11.08 20:15:04 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 20:15:04 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:15:04 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 20:16:04 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 20:16:04 WARN  Retrying connection to the build server scala-cli
+2026.11.08 20:16:04 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 20:16:04 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:16:04 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 20:17:04 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 20:17:04 WARN  Retrying connection to the build server scala-cli
+2026.11.08 20:17:04 INFO  Running BSP server List(C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json, C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes)
+2026.11.08 20:17:04 ERROR Running process 'C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-options-v2.json --json-launcher-options C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-launcher-options.json --envs-file C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes\.scala-build\ide-envs.json C:\Users\rahul\OneDrive\Documents\GitHub\My_Python-codes' failed
+java.io.IOException: Cannot run program "C:\Users\rahul\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "/Users/prakrit/Documents/Vs-code/My_Python-codes"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:129)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:172)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.11.08 20:17:04 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/prakrit/Documents/Vs-code/My_Python-codes/.metals/bsp.trace.json or /Users/prakrit/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.11.08 20:18:04 ERROR Timeout waiting for 'build/initialize' response
+2026.11.08 20:18:04 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:806)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Nov 08, 2026 9:00:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
